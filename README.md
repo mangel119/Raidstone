@@ -1,0 +1,2 @@
+# Raidstone
+Realizaremos un videojuego, nos enfocaremos en la categoría shooter en primera persona. En primer lugar, el usuario deberá insertar su dispositivo móvil en las gafas de realidad virtual, posterior a ello, como mecánica o medio por el cual el usuario jugará será el giroscopio de su dispositivo móvil, con el cual apuntará a los enemigos que aparecerán en su visor (Gafas de realidad aumentada), los disparos se harán de manera automática.

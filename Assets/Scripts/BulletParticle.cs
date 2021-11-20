@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class BulletParticle : MonoBehaviour
 {
-    public float damage = 25f;
+    public float damage = 20f;
     public ParticleSystem particleSystem;
     List<ParticleCollisionEvent> colEvents = new List<ParticleCollisionEvent>();
     public GameObject spark;
@@ -20,7 +20,7 @@ public class BulletParticle : MonoBehaviour
         {
             Instantiate(spark, colEvents[i].intersection, Quaternion.LookRotation(colEvents[i].normal));
         }
-        if (other.TryGetComponent(out Enemy en))
+        if (other.transform.root.TryGetComponent(out Enemy en))
         {
             en.TakeDamage(damage);
         }

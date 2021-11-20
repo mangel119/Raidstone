@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
             {
                 explode.Play();
                 alreadyPlayed=true;
+                FindObjectOfType<Score>().IncreaseScore();
             }
             
             Instantiate(explosion,transform.position, Quaternion.identity);

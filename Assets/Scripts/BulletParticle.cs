@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class BulletParticle : MonoBehaviour
 {
-    private float damage = 15f;
+    private float damage = 20f;
     public ParticleSystem particleSystem;
     List<ParticleCollisionEvent> colEvents = new List<ParticleCollisionEvent>();
     public GameObject spark;

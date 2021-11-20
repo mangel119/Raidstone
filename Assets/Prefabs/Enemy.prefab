@@ -360,6 +360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9122181876135874810}
   - component: {fileID: 9122181876135874811}
+  - component: {fileID: -7642370823725941894}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -400,3 +401,17 @@ MonoBehaviour:
   playSound: {fileID: 9122181875588923663}
   explode: {fileID: 2995154788740041438}
   health: 100
+  alreadyPlayed: 0
+--- !u!114 &-7642370823725941894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9122181876135874804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e38028dc4afbd4b820a0c7bfdc9eaa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dir: {x: 0, y: 0, z: 0}

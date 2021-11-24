@@ -1,9 +1,19 @@
 Tareas:
+    ☐ Menu Start
+    Problemas con Naves:
+        ☐ Nave1 (Rotar 180°)
+        ☐ Nave2 (Rotar 90° izq)
+        ☐ Nave3 (Rotar 180°)
+        ☐ Nave4 (Rotar 180°)
+        ☐ Nave5 (Textura, Rotar 90° izq)
+        ☐ Nave6 (Rotar 180°)
+
+        ☐ Revisar Tamaños Naves
     ✔ Crear repositorio en GIT @done (5/11/2021, 10:36:18 p. m.)
     ✔ Compartir repositorio @done (5/11/2021, 10:36:23 p. m.)
     ✔ Crear proyecto en Unity @done (5/11/2021, 10:36:25 p. m.)
     ✔ Skybox solido negro @done (5/11/2021, 10:36:27 p. m.)
     ✔ Crear objeto de prueba (cube) @done (5/11/2021, 10:36:28 p. m.)
     ✔ Test exportar apk @done (6/11/2021, 12:56:18 p. m.)
-    ☐ Implementar función de Giroscopio
-    ☐ Test Giroscopio
+    ✔ Implementar función de Giroscopio @done (23/11/2021, 9:55:55 p. m.)
+    ✔ Test Giroscopio @done (23/11/2021, 9:55:58 p. m.)
